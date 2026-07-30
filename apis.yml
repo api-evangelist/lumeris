@@ -1,8 +1,26 @@
 aid: lumeris
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lumeris.png
 name: Lumeris
-description: 'Lumeris is a company surfaced as a portfolio company of kleiner-perkins and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Lumeris is a physician-founded healthcare technology company delivering AI-powered primary
+  care transformation through Tom, its Primary Care as a Service platform. Founded more than fifteen years
+  ago, Lumeris helps physicians, health systems, and payers operate value-based care by reducing physician
+  administrative burden, coordinating proactive patient experiences, and scaling care efficiently. The
+  company serves over 1.4M lives across commercial, Medicare Advantage, multi-payer ACO, and Medicaid
+  arrangements, and reports more than $90B in claims ingested. Lumeris is headquartered in the United States
+  with its Tomorrow Labs innovation group in Cambridge, Massachusetts. Lumeris was surfaced as a portfolio
+  company of Kleiner Perkins. No public developer portal, API documentation, or SDK surface was found during
+  enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/lumeris/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Value-Based Care
+- Primary Care
+- Artificial Intelligence
+- Medicare Advantage
+- Population Health
+- Health Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.lumeris.com
+- type: PrivacyPolicy
+  url: https://www.lumeris.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.lumeris.com/terms-and-conditions/
+- type: DomainSecurity
+  url: security/lumeris-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
